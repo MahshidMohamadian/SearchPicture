@@ -1,0 +1,108 @@
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+/* #container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+} */
+
+.d {
+    display: none;
+}
+
+.card-columns:hover>.d {
+    display: block;
+}
+figure.snip0013 {
+/* position: relative;
+overflow: hidden;
+min-width: 220px;
+max-width: 310px;
+max-height: 220px;
+width: 100%;
+background: #ffffff; */
+margin:0px;
+text-align: center;
+}
+figure.snip0013 .d {
+max-width: 100%;
+/* opacity:5; */
+transition: opacity 0.35s;
+}
+figure.snip0013 > #icon {
+left:0%;
+right: 0;
+top: 0;
+bottom: 0;
+height: 100%;
+position: absolute;
+}
+figure.snip0013 > #icon a {
+color: #ffffff;
+}
+figure.snip0013 > #icon a i {
+font-size: 50px;
+opacity: 0;
+top: 50%;
+position: relative;
+-webkit-transform: translate3d(0, -50%, 0);
+transform: translate3d(0, -50%, 0);
+-webkit-transition-delay: 0s;
+transition-delay: 0s;
+display: inline-block;
+}
+figure.snip0013 > #icon a i.left-icon {
+-webkit-transform: translate3d(0, -50%, 0);
+transform: translate3d(0, -50%, 0);
+}
+figure.snip0013 > #icon a i.right-icon {
+-webkit-transform: translate3d(0, -50%, 0);
+transform: translate3d(0, -50%, 0);
+}
+figure.snip0013 > #icon::before {
+position: absolute;
+top: 30px;
+right: 50%;
+bottom: 30px;
+left: 50%;
+border-left: 1px solid rgba(255, 255, 255, 0.8);
+border-right: 1px solid rgba(255, 255, 255, 0.8);
+content: '';
+opacity: 0;
+background-color: #ffffff;
+-webkit-transition: all 0.4s;
+transition: all 0.4s;
+-webkit-transition-delay: 0.3s;
+transition-delay: 0.3s;
+}
+figure.snip0013:hover .d {
+opacity: 0.5;
+}
+figure.snip0013:hover > #icon i {
+opacity: 0.9;
+-webkit-transition: 0.3s ease-in-out;
+transition: 0.3s ease-in-out;
+-webkit-transition-delay: 0.3s;
+transition-delay: 0.3s;
+}
+figure.snip0013:hover > #icon i.left-icon {
+-webkit-transform: translate3d(-25%, -50%, 0);
+transform: translate3d(-25%, -50%, 0);
+}
+figure.snip0013:hover > #icon i.right-icon {
+-webkit-transform: translate3d(25%, -50%, 0);
+transform: translate3d(25%, -50%, 0);
+}
+figure.snip0013:hover > #icon::before {
+background: rgba(255, 255, 255, 0);
+left: 30px;
+right: 30px;
+opacity: 1;
+-webkit-transition-delay: 0s;
+transition-delay: 0s;
+}
+
+
+
